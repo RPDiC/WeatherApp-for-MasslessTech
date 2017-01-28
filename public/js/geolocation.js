@@ -34,7 +34,7 @@ $(document).ready(function(){
   //insert openweathermap api key after '=' of api_url
     api_url = 'http://api.openweathermap.org/data/2.5/weather?lat=' +
     lat + '&lon=' +
-    lon + '&units=metric&appid=1c29adccd542de3d967c2dee625fdf89';
+    lon + '&units=metric&appid=';
 
     $.ajax({
       url : api_url,
