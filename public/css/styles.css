@@ -1,0 +1,52 @@
+*{
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+}
+
+html, body {
+  height: 100%;
+  text-align: center;
+  font-family: 'Farsan', cursive;
+  z-index: -1;
+  background-color: blue;
+}
+
+#background {
+  text-align: center;
+  overflow: hidden;
+  /*min-height: auto;*/
+  max-height: inherit;
+  height: 100%;
+  /*width: 100%;*/
+  background-image: url("");
+  /*background-size: 100% 100%;*/
+  background: no-repeat;
+  background-position: center top;
+  position: relative;
+  clear: both;
+}
+
+p {
+  z-index: 1;
+}
+
+p.title {
+  padding-top: 50px;
+  font-size: 400%;
+}
+
+p.info {
+  padding: 20px 0px 20px 0px;
+  font-size: 150%;
+}
+
+
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+}
