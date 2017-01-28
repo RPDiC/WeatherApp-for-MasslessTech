@@ -1,0 +1,23 @@
+{
+  "name": "massless-weather",
+  "version": "1.0.0",
+  "description": "This web application was built for an application to Massless Technologies. The application uses the OpeanWeatherMapAPI and HTML geolocation to display the latest weather conditions at the user's location.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RPDiC/WeatherApp-for-MasslessTech.git"
+  },
+  "author": "Ryan DiCintio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RPDiC/WeatherApp-for-MasslessTech/issues"
+  },
+  "homepage": "https://github.com/RPDiC/WeatherApp-for-MasslessTech#readme",
+  "dependencies": {
+    "@google/maps": "^0.3.1",
+    "express": "^4.14.0"
+  }
+}
