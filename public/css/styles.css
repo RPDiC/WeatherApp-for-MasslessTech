@@ -7,46 +7,45 @@
 
 html, body {
   height: 100%;
-  text-align: center;
-  font-family: 'Farsan', cursive;
-  z-index: -1;
-  background-color: blue;
+  font-family: 'Anton', sans-serif;
 }
 
 #background {
   text-align: center;
-  overflow: hidden;
-  /*min-height: auto;*/
-  max-height: inherit;
   height: 100%;
-  /*width: 100%;*/
-  background-image: url("");
-  /*background-size: 100% 100%;*/
-  background: no-repeat;
-  background-position: center top;
+  width: 100%;
+  background: no-repeat center center fixed;
+  background-size: cover;
+  z-index: -1;
+}
+
+#map {
+  height: 250px;
   position: relative;
-  clear: both;
+  top: 30%;
+}
+
+#overmap {
+  position: fixed;
+  text-align: left;
+  margin-left: 30px;
+  top: 30%;
+  z-index: 99;
+  background-color: transparent;
 }
 
 p {
-  z-index: 1;
+  padding-left: 0px;
+  position: relative;
+  background-color: transparent;
 }
 
 p.title {
-  padding-top: 50px;
-  font-size: 400%;
+  margin-top: 30px;
+  font-size: 300%;
 }
 
 p.info {
-  padding: 20px 0px 20px 0px;
+  margin: 20px 0px 20px 0px;
   font-size: 150%;
-}
-
-
-
-footer {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  z-index: 1;
 }
