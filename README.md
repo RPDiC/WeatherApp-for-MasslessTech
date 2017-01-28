@@ -5,7 +5,7 @@ This web application was built for an application to [Massless Technologies](htt
 
 Weather Demo is a simple Node/Express app that displays current, location-based weather information.
 
-The application uses the OpenWeatherMapAPI and HTML geolocation to retrieve weather conditions at the user's location.
+The application uses the OpenWeatherMapAPI and HTML geolocation to retrieve weather conditions at the user's location. The application background will change depending on the current conditions; as a result, users can easily identify rain, snow, or extreme weather conditions.
 
 ##Usage
 - 'npm install'
